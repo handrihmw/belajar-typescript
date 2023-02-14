@@ -42,11 +42,11 @@ const resultAdd = add(19, 95)
 console.log(resultAdd)
 
 // default parameter
-let fullName = (first: string, last: string = 'Cool!'): string => {
+let nameFull = (first: string, last: string = 'Cool!'): string => {
     return first + " " + last
 }
 
-console.log(fullName("Handri", "Hermawan"))
+console.log(nameFull("Handri", "Hermawan"))
 
 // optional parameter
 
@@ -56,7 +56,7 @@ const getStatus = (status1: string, status2 ?: string): string => {
 
 console.log(getStatus("Belum"))
 
-const getNumber = (num1: number, num2 ?: number): number => {
+const getNumber = (num1: number, num2: number): number => {
     return num1 + num2
 }
 
